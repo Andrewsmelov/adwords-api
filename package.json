@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimonKK/adwords-api.git"
+    "url": "git+https://github.com/Andrewsmelov/adwords-api.git"
   },
-  "author": "berezhnov@ucoz-team.net",
+  "author": "andrew.smelov@progforce.com",
   "license": "MIT",
-  "homepage": "https://github.com/TimonKK/adwords-api.git",
+  "homepage": "https://github.com/Andrewsmelov/adwords-api.git",
   "devDependencies": {
     "chai": "3.5.0",
     "dotenv": "2.0.0",

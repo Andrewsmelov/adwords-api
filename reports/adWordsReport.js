@@ -9,6 +9,7 @@ var AdWordsObject = require('../adWordsObject');
 // define abstract AdWords report
 function AdWordsReport(options) {
   var self = this;
+  self.options = options;
   AdWordsObject.call(self, options);
 
   self.getRdxml = function(opts) {
@@ -87,7 +88,7 @@ function AdWordsReport(options) {
 
   self.getReportFields = function(done) {
     var ReportDefinitionService = require('../services/reportDefinitionService');
-    var service = new ReportDefinitionService();
+    var service = new ReportDefinitionService(self.options);
     var options = {reportType: self.reportType};
     service.getReportFields(options, done);
   };
