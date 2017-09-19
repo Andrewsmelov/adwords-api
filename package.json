@@ -1,5 +1,5 @@
 {
-  "name": "google-adwords-conversion",
+  "name": "adwords-api",
   "version": "1.0.0",
   "description": "Fork: https://www.npmjs.com/package/adwords-api. Added import of offline conversion",
   "main": "index.js",
